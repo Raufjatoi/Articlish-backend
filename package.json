@@ -7,8 +7,8 @@
     "node": ">=18.0.0"
   },
   "scripts": {
-    "dev": "nodemon server.cjs",
-    "start": "node api/index.js",
+    "dev": "node server.cjs",
+    "start": "node server.cjs",
     "lint": "eslint . --ext js,mjs,cjs",
     "vercel-build": "echo 'Build step completed'"
   },
