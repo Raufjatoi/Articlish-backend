@@ -41,7 +41,7 @@ export interface MonthlyStats {
 // Update the API_URL to point to your Vercel-deployed backend
 const API_URL = process.env.NODE_ENV === 'development' 
   ? 'http://localhost:3001/api' 
-  : 'https://articlish-sltc.vercel.app/api';  // Replace with your actual Vercel URL
+  : 'https://articlish-backend.vercel.app/api';  // Replace with your actual Vercel URL
 
 // Set this to false to use the real API
 const useMockData = false;
