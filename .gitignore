@@ -1,0 +1,25 @@
+
+node_modules/         # installed packages
+npm-debug.log*        # npm error logs
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+dist/                 # bundler or TypeScript output
+build/
+.vercel/
+.next/                # Next.js, Turbo, or Vercel builds
+.cache/               # various build caches
+coverage/             # test coverage reports
+
+.env                  # env vars (never commit credentials!)
+.env.*                # .env.development, .env.local, etc.
+
+.DS_Store             # macOS
+Thumbs.db             # Windows
+.idea/                # JetBrains IDEs
+.vscode/              # VS Code settings
+*.swp                 # Vim swap files
+
+*.local               # docker-compose override
+docker-compose.override.yml

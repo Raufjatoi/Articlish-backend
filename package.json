@@ -1,0 +1,26 @@
+{
+  "name": "articlish-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "dev": "nodemon server.cjs",
+    "start": "node api/index.js",
+    "lint": "eslint . --ext js,mjs,cjs",
+    "vercel-build": "echo 'Build step completed'"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mongodb": "^6.17.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "eslint": "^9.9.0",
+    "nodemon": "^3.1.0"
+  }
+}
