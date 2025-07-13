@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 const app = express();
 
 // MongoDB connection string - use environment variable for security
-const uri = "mongodb+srv://raufpokemon00:GPfUF@#LqyKqk!9@cluster0.hplvo4f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const uri = "mongodb+srv://raufpokemon00:m1bX3qt782t23lu3@cluster0.hplvo4f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 const DB_NAME = "articlish";
 const COLLECTIONS = {
   AUTHORS: "authors",
